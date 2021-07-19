@@ -1,0 +1,174 @@
+<!DOCTYPE html>
+<html lang="it">
+    <head>
+        <title>Gabriele Angius - Lavori</title>
+	    <!--impostazioni dimensione e set di caratteri-->
+	    <meta charset="utf-8">
+	    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+	    <!--font-->
+	    <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Open+Sans+Condensed:wght@300&family=Open+Sans:ital,wght@0,300;0,400;0,700;1,400&family=Quicksand:wght@400;700&family=Trykker&display=swap" rel="stylesheet">
+	    <!--incone-->
+	    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+	    <!--foglio di stile-->
+	    <link href="main.css" rel="stylesheet">
+	    <!--METATAG-->
+	    <meta name="keywords" content="Portfolio, Web Design, Web Develop, Front-end Develop">
+	    <meta name="author" content="Gabriele Angius">
+    </head>
+    <body>
+        <header>
+            <nav>
+                <div class="intestazioneNav">
+                    <a href="index.html"><img src="imgs/logo/logoMinim.svg" alt="Angius Gabriele Logo"></a>
+                </div>
+                <ul id="menu">
+                    <li><a href="chisono.html">Chi sono</a></li>
+                    <li><a href="lavori.html" class="attivo">Lavori</a></li>
+                </ul>
+                <button id="hamburger">
+                    <span>
+                        <img src ="imgs/svg/bar-square.svg" alt="barra dell'hamburger menu">
+                        <img src ="imgs/svg/bar-square.svg" alt="barra dell'hamburger menu">
+                        <img src ="imgs/svg/bar-square.svg" alt="barra dell'hamburger menu">
+                    </span>
+                </button>
+            </nav>
+        </header>
+        <main>
+            <section id="vetrina">
+                <h1 class="display">I miei lavori</h1>
+                <h2>Vetrina</h2>
+                <div class="flex-container">
+                    <div class="card2">
+                        <figure>
+                            <img src="imgs/svg/logo-card.svg" alt="Logo &#8220;Angius Gabriele&#8221; su uno sfondo che mostra uno sviluppare al lavoro">
+                            <figcaption class="small-h">
+                                <h1>Portfolio <br/> &#8220;Angius Gabriele&#8221;</h1>
+                                <p class="small">Progettazione, design e sviluppo del sito-portfolio che stai visitando.</p>
+                                <a href="#ga-portfolio" class="pill inverted small-a"> Scopri di più &nbsp; <i class="fa fa-angle-right fa-2x"> </i></a>
+                            </figcaption>
+                        </figure>
+                    </div>
+                    <div class="card2">
+                        <figure>
+                            <img src="imgs/png/eshop-savoia-small.png" alt="Logo &#8220;savoiacioccolati&#8221; sopra uno sfondo di invitanti cioccolatini">
+                            <figcaption class="small-h">
+                                <h1>E-shop <br/> &#8220;savioacioccolati&#8221;</h1>
+                                <p class="small">Dal documento guida ai prototipi: processo completo di ideazione, progettazione e design di un e-commerce.</p>
+                                <a href="#savoia-eshop" class="pill inverted small-a"> Scopri di più &nbsp; <i class="fa fa-angle-right fa-2x"> </i></a>
+                            </figcaption>
+                        </figure>
+                    </div>
+                </div>                                     
+            </section>
+            <article id="savoia-eshop">
+                <section>
+                    <h1>Savoiacioccolati</h1>
+                    <p class="sub">e-commerce online</p>
+                    <p>Savoia Cioccolati è una piccola azienda italiana fondata nel 1997, che produce una selezione di prodotti al cioccolato di alta qualità.</p>
+                    <p>Il lavoro si basa sulla progettazione di un e-commerce online che svolga la doppia funzione di “vetrina” (quindi presentazione e promozione del brand e dei suoi prodotti) e di shop online (quindi vendita e spedizione dei prodotti).</p>
+                    <div class="img-full">
+                        <picture>
+                            <source media="(min-width:768px)" srcset="imgs/jpg/chocolate-med.jpg">
+                            <source media="(max-width:768px)" srcset="imgs/jpg/chocolate-small.jpg">
+                            <img src="imgs/jpg/chocolate-med.jpg" alt="Cioccolatini su sfondo bianco">
+                        </picture>
+                    </div>
+                    <a href="https://www.figma.com/proto/k7Y5AcQJz0Hz32SvPnqQX3/savoiacioccolati.it?node-id=141%3A5048&scaling=min-zoom&page-id=231%3A3636" class="pill" target="_blank"> Vedi il documento guida &nbsp; <i class="fa fa-angle-right fa-2x"> </i></a>
+                </section>
+                <section>
+                    <h1>Design</h1>
+                    <p>Per quanto riguarda la strategia di comunicazione, si è scelto di adottare un approccio di design il più possibile in linea con il marchio dell’azienda. Nello specifico le linee utilizzate saranno basate su una geometria decisa, e sull’alternanza di vuoti e pieni.</p>
+                    <p>Per quanto riguarda invece l’abbinamento font, si combinano un font serif per i titoli e uno sans serif per il corpo, in modo da mantenere il look elegante e pulito del marchio.</p>
+                    <div class="img-full2">
+                        <picture>
+                            <source media="(min-width:768px)" srcset="imgs/png/preview-styleguide-savaoiaciocc.png">
+                            <source media="(max-width:768px)" srcset="imgs/png/preview-styleguide-savaoiaciocc-small.png">
+                            <img src="imgs/png/preview-styleguide-savaoiaciocc.png" alt="Anteprima guida allo stile - eshop savoiacioccolati">
+                        </picture>
+                    </div>
+                    <a href="https://www.figma.com/proto/k7Y5AcQJz0Hz32SvPnqQX3/savoiacioccolati.it?node-id=36%3A0&scaling=min-zoom&page-id=0%3A1" class="pill" target="_blank"> Vedi la guida allo stile &nbsp; <i class="fa fa-angle-right fa-2x"> </i></a>
+                </section>
+                <section>
+                    <h1>Prototipazione</h1>
+                    <p>Il progetto in questione presenta numerose pagine, e svariate funzionalità che necessitano di una particolare cura. Inoltre, il fatto che si tratti di un sito dedicato principalmente alla vendita, è indispensabile che l’usabilità e l’esperienza utente siano fluide e funzionali sotto ogni aspetto.</p>
+                    <p>Per questo motivo è stato imprescindibile dedicare una consistente quantità di tempo e lavoro nella prototipazione.</p>
+                    <div class="flex-container">
+                        <div class="img-full2">
+                        <picture>
+                            <source media="(min-width:768px)" srcset="imgs/png/home-savoia-mob.png">
+                            <source media="(max-width:768px)" srcset="imgs/png/home-savoia-mob-small.png">
+                            <img src="imgs/png/home-savoia-mob.png" alt="Anteprima homepage mobile - eshop savoiacioccolati">
+                        </picture>
+                    </div>
+                    <div class="img-full2">
+                        <picture>
+                            <source media="(min-width:768px)" srcset="imgs/png/home-savoia-desktop-big.png">
+                            <source media="(max-width:768px)" srcset="imgs/png/home-savoia-desktop-small.png">
+                            <img src="imgs/png/home-savoia-desktop-big.png" alt="Anteprima homepage desktop - eshop savoiacioccolati">
+                        </picture>
+                    </div>
+                    </div>
+                    
+                    <div class="show-hide-a">
+                        <a href="https://www.figma.com/proto/k7Y5AcQJz0Hz32SvPnqQX3/savoiacioccolati.it?node-id=68%3A3&scaling=min-zoom&page-id=68%3A2&starting-point-node-id=68%3A3" class="pill" target="_blank"> Prototipi desktop &nbsp;</a>
+                        <a href="https://www.figma.com/proto/k7Y5AcQJz0Hz32SvPnqQX3/savoiacioccolati.it?node-id=131%3A214&scaling=min-zoom&page-id=71%3A2526&starting-point-node-id=131%3A214" class="pill" target="_blank"> Prototipi tablet &nbsp;</a>
+                        <a href="https://www.figma.com/proto/k7Y5AcQJz0Hz32SvPnqQX3/savoiacioccolati.it?node-id=131%3A4542&scaling=min-zoom&page-id=71%3A2493&starting-point-node-id=131%3A4542" class="pill" target="_blank"> Prototipi mobile &nbsp;</a>
+                    </div>
+                </section>
+            </article>
+            <article id="ga-portfolio">
+                <section class="social">
+                    <div class="flex-container-mob">
+                        <div>
+                            <h1>Gabriele Angius</h1>
+                            <p class="sub">Sito - portfolio personale</p>
+                        </div>
+                        <p>
+                            <a href="https://github.com/gabrieleAngius" class="wb-a" target="_blank"><i class="fa fa-github fa-3x" aria-hidden="true"></i></a>
+                            <a href="index.html" class="wb-a"><i class="fa fa-globe fa-3x" aria-hidden="true"></i></a>
+                        </p>
+                    </div>
+                   <p>Il sito sul quale stai navigando è il mio personale sito-portfolio. L'obiettivo è quello di mostrare le mie capacità e conoscenze e di permettere ai potenziali datori di lavoro di contattarmi. Per questo motivo, nella home e nel footer sono presenti numerosi collegamenti al contatto mail e al download del <abbr title="Curriculum Vitae">CV</abbr></p>
+                </section>
+                <section>
+                    <h1>Design</h1>
+                    <p>Il design del sito si basa su linee arrotondate e una palette cromatica minimale: tutti gli elementi giocano sul contrasto tra nero e arancio / bianco e nero. Le stesse linee e l'impaginazione sono minimali e prevedono l'utilizzo di pochi elementi che risaltano negli ampi spazi.</p>
+                    <p>Per quanto riguarda l'interazione, si cerca di offrire una certa dinamicità tramite le animazioni e le transizioni al passaggio del mouse (come ad esempio i link-pillola, le descrizioni delle cards, le immagini di anteprima... )</p>
+                    <div class="img-full2 w-border">
+                        <picture>
+                            <source media="(min-width:768px)" srcset="imgs/png/preview-styleguide-gabrieleportfolio.png">
+                            <source media="(max-width:768px)" srcset="imgs/png/preview-styleguide-gabrieleportfolio-small.png">
+                            <img src="imgs/png/preview-styleguide-gabrieleportfolio.png" alt="Anteprima guida allo stile - portfolio Angius Gabriele">
+                        </picture>
+                    </div>
+                    <a href="https://www.figma.com/proto/SYQJcXwYhn3imt5lUVtxkm/Portfolio?node-id=95%3A2&scaling=contain&page-id=0%3A1" class="pill" target="_blank"> Vedi la guida allo stile &nbsp;<i class="fa fa-angle-right fa-2x"> </i></a>
+                </section>
+            </article>
+        </main>
+        <footer class="top-fix2 center">
+            <div class="column-center">
+                <div class="contact-div flex-container small-h center">
+                    <h1>Interessato a collaborazioni o assunzioni?</h1>
+                    <p class="small">Sono sempre aperto alla valutazione di nuove opportunità, e attualmente sono alla ricerca di un’esperienza professionale.</p>
+                    <a href="mailto:gabrieleangius@protonmail.com" target="_blank" class="pill inverted-wb small-a"> Contattami &nbsp; <i class="fa fa-envelope"> </i></a>
+                </div>
+            </div>
+            <div class="column-center">
+                <img src="imgs/logo/logoMinimBlack.svg" alt="Logo Gabriele Angius">
+                <p class="italic">Creatività, formazione e innovazione. <br/> Passo dopo passo, non si smette mai di migliorare.</p>
+                <div class="flex-container social">
+                    <a class="inverted" href="https://github.com/gabrieleAngius" target="_blank"><i class="fa fa-github fa-2x" aria-hidden="true"></i></a>
+                    <a class="inverted" href="https://www.instagram.com/gabrieleangius.webdev/" target="_blank"><i class="fa fa-instagram fa-2x" aria-hidden="true"></i></a>
+                    <a class="inverted" href="https://dribbble.com/gabrieleangius" target="_blank"><i class="fa fa-dribbble fa-2x" aria-hidden="true"></i></a>
+                </div>
+                <a href="./docs/CV-AngiusGabriele.pdf" download="Curriculum di Gabriele" class="pill inverted small-a"> Scarica il mio&nbsp;<abbr title="Curriculum Vitae"> CV </abbr><i class="fa fa-angle-right fa-2x"> </i></a>
+                <p class="small">Ideato, progettato e sviluppato da Gabriele Angius &#169; 2021</p>
+            </div>
+        </footer>
+        <script src="script/script.js"></script>
+    </body>
+  </html>

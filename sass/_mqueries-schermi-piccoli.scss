@@ -1,0 +1,43 @@
+//& SCHERMI MOLTO PICCCOLI
+@media screen and (min-width: 100px) and (max-width: 450px) {
+    //^ GLOBALI
+    .fullscreen-top img {
+        width: auto;
+    }
+    //^ TIPOGRAFIA 
+    h1 {
+        line-height: 1;
+        &.display {
+            font-size: 2.9rem;
+        }
+    }
+    //^ CARDS
+    .card {
+        padding: 3vh 8vw 6vh 8vw;
+        img {
+            width: 17vw;
+            height: auto;
+        }
+    }
+    //^ LINK E BOTTONI
+    a.small-a.inverted {
+        border: none;
+        text-decoration: underline;
+        padding: 0;
+        i {
+            display: none;
+        }
+        &:hover {
+            background-color: $p1;
+            color: $p2-light;
+        }
+        &:active, &:focus {
+            color: #FFFFFF;
+            background-color: $p1;
+        }
+    }
+    //^ FOOTER
+    footer {
+        padding-top: 50%;
+    }
+}

@@ -1,0 +1,63 @@
+//* TIPOGRAFIA
+h1.display {
+    font-family: 'Open Sans Condensed', sans-serif;
+    font-size: 5.5rem;
+    text-align: center;
+}
+h1, h2, h3, h4, h5, h6 {
+    font-family: 'Quicksand', sans-serif;
+    font-weight: 400;
+}
+h1 {
+    font-size: 2.5rem;
+}
+.small-h > h1 {
+    font-size: 150%;
+}
+h2{
+  font-size: 2.5rem;  
+}
+h3{
+    font-size: 2.2rem;  
+}
+h4{
+    font-size: 2rem;  
+}
+h5{
+    font-size: 1.7rem;  
+}
+h6{
+    font-size: 1.4rem;
+    font-weight: 700;  
+}
+p {
+    font-size: .9rem;
+    &.italic {
+        font-style: italic;
+    }
+    &.sub {
+        font-family: 'Trykker', serif;
+        font-size: 1rem;
+        margin-top: -5vh;
+    }
+    &.big {
+        font-size: 1.1rem;
+    }
+    &.small {
+        font-size: 0.8rem;
+    }
+}
+strong, b, strong > *, b > * {
+    font-family: 'Open Sansdd', sans-serif;
+    font-weight: 700;
+}
+
+.center {
+    text-align: center;
+    h1, h2, h3, h4, h5, h6, p, a.pill {
+        text-align: center;
+    }
+}
+abbr {
+    text-decoration: none;
+}

@@ -1,0 +1,147 @@
+<!DOCTYPE html>
+<html lang="it">
+    <head>
+        <title>Gabriele Angius - Home</title>
+	    <!--impostazioni dimensione e set di caratteri-->
+	    <meta charset="utf-8">
+	    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+	    <!--font-->
+	    <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Open+Sans+Condensed:wght@300&family=Open+Sans:ital,wght@0,300;0,400;0,700;1,400&family=Quicksand:wght@400;700&family=Trykker&display=swap" rel="stylesheet">
+	    <!--incone-->
+	    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+	    <!--foglio di stile-->
+	    <link href="main.css" rel="stylesheet">
+	    <!--METATAG-->
+	    <meta name="keywords" content="Portfolio, Web Design, Web Develop, Front-end Develop">
+	    <meta name="author" content="Gabriele Angius">
+    </head>
+    <body>
+        <header>
+            <nav>
+                <div class="intestazioneNav">
+                    <a href="index.html"><img src="imgs/logo/logoMinim.svg" alt="Angius Gabriele Logo"></a>
+                </div>
+                <ul id="menu">
+                    <li><a href="chisono.html">Chi sono</a></li>
+                    <li><a href="lavori.html">Lavori</a></li>
+                </ul>
+                <button id="hamburger">
+                    <span>
+                        <img src ="imgs/svg/bar-square.svg" alt="barra dell'hamburger menu">
+                        <img src ="imgs/svg/bar-square.svg" alt="barra dell'hamburger menu">
+                        <img src ="imgs/svg/bar-square.svg" alt="barra dell'hamburger menu">
+                    </span>
+                </button>
+            </nav>
+        </header>
+        <main>
+            <section class="column-center center bottom-fix">
+                <picture class="fullscreen-top">
+                    <source media="(max-width:768px)" srcset="imgs/png/web-medium.png">
+                    <source media="(min-width:768px)" srcset="imgs/png/web-big.png">
+                    <source media="(min-width:1919px)" srcset="imgs/png/web-big.png">
+                    <img src="imgs/png/web-medium.png" alt="Sviluppatore al lavoro">
+                </picture>
+                <h1 class="display">Designer e Front-end developer</h1>
+                <p class="sub">Sono Gabriele: mi piace creare, progettare <br/> e sviluppare prodotti web</p>
+                <img src="imgs/png/io.png" alt="ritratto di Gabriele">
+                <p class="small">Vuoi saperne di più? <a href="./docs/CV-AngiusGabriele.pdf" download="Curriculum di Gabriele">Scarica il mio <abbr title="Curriculum Vitae"> CV </abbr> </a></p>
+                <a href="mailto:gabrieleangius@protonmail.com" target="_blank" class="pill"> Contattami &nbsp; <i class="fa fa-envelope"> </i></a>           
+            </section>
+            <section class="center" id="competenze">
+                <div class="backg-orange-light">
+                    <h1>Le mie competenze</h1>
+                    <p class="center">Grazie al mio percorso formativo, fin dalle superiori ho studiato in modo approfondito le nozioni di graphic design e comunicazione visiva.</p>
+                    <p> In seguito ho dedicato la mia formazione all’<strong><abbr title="User Experience/ User Interface">UX/ UI </abbr>design</strong> e al consolidamento di <strong><abbr title="Hyper Text Markup Language">HTML</abbr>, <abbr title="Cascading Style Sheets">CSS</abbr> e <abbr title="Syntactically Awesome Stylesheets">SASS</abbr></strong>. Attualmente proseguo in autonomia la strada verso il titolo di <strong>Front-end developer</strong>, dedicandomi allo studio di Javascript.</p>
+                    <div class="flex-container">
+                        <div class="column-center card center small-h">
+                            <img src="./imgs/svg/design-icon.svg" alt="Icona sviluppo front-end">
+                            <h1>Design</h1>
+                            <p class="small">Dall’ideazione alla progettazione: miro sempre alla massima cura in ogni dettaglio</p>
+                            <h1>Cosa so fare</h1>
+                            <p class="small"><abbr title="User Experience">UX</abbr>, <abbr title="User Interface">UI</abbr>, graphic design, mokups</p>
+                            <h1>Strumenti</h1>
+                                <p class="small">
+                                    <ul>
+                                        <li>Figma</li>
+                                        <li>Pacchetto Adobe</li>
+                                        <li>Inkscape</li>
+                                        <li>Carta e penna</li>
+                                    </ul>
+                                </p>
+                        </div>
+                        <div class="column-center card center small-h">
+                            <img src="./imgs/svg/develop-icon.svg" alt="Icona sviluppo front-end">
+                            <h1>Sviluppo front-end</h1>
+                            <p class="small">Adoro la sensazione di aver costruito da zero qualcosa che non esisteva.</p>
+                            <h1>Linguaggi acquisiti</h1>
+                            <p class="small"><abbr title="Hyper Text Markup Language">HTML</abbr>, <abbr title="Cascading Style Sheets">CSS</abbr>, <abbr title="Syntactically Awesome Style Sheets">SASS</abbr>, <abbr title="JavaScript">JS</abbr></p>
+                            <h1>Strumenti</h1>
+                            <p class="small">
+                                <ul>
+                                    <li>VS code</li>
+                                    <li>Notepad++</li>
+                                    <li>Bootstrap</li>
+                                </ul>
+                            </p>
+                        </div>
+                    </div>
+                </div>
+                <div class="column-center cover-prev">
+                    <a href="chisono.html" class="pill"> Scopri chi sono &nbsp; <i class="fa fa-angle-right fa-2x"> </i></a>
+                </div>
+            </section>
+            <section class="center" id="lavori">
+                <h1>I miei Lavori</h1>
+                <div class="flex-container">
+                    <div class="card2">
+                        <figure>
+                            <img src="imgs/svg/logo-card.svg" alt="Logo &#8220;Angius Gabriele&#8221; su uno sfondo che mostra uno sviluppare al lavoro">
+                            <figcaption class="small-h">
+                                <h1>Portfolio <br/> &#8220;Angius Gabriele&#8221;</h1>
+                                <p class="small">Progettazione, design e sviluppo del sito-portfolio che stai visitando.</p>
+                                <a href="lavori.html#ga-portfolio" class="pill inverted small-a"> Scopri di più &nbsp; <i class="fa fa-angle-right fa-2x"> </i></a>
+                            </figcaption>
+                        </figure>
+                    </div>
+                    <div class="card2">
+                        <figure>
+                            <img src="imgs/png/eshop-savoia-small.png" alt="Logo &#8220;savoiacioccolati&#8221; sopra uno sfondo di invitanti cioccolatini">
+                            <figcaption class="small-h">
+                                <h1>E-shop <br/> &#8220;savioacioccolati&#8221;</h1>
+                                <p class="small">Dal documento guida ai prototipi: processo completo di ideazione, progettazione e design di un e-commerce.</p>
+                                <a href="lavori.html#savoia-eshop" class="pill inverted small-a"> Scopri di più &nbsp; <i class="fa fa-angle-right fa-2x"> </i></a>
+                            </figcaption>
+                        </figure>
+                    </div>
+                </div>
+                <div class="column-center">
+                    <a href="lavori.html" class="pill"> Visualizza tutti i lavori &nbsp; <i class="fa fa-angle-right fa-2x"> </i></a>
+                </div>
+            </section>
+        </main>
+        <footer class="top-fix2 center">
+            <div class="column-center">
+                <div class="contact-div flex-container small-h center">
+                    <h1>Interessato a collaborazioni o assunzioni?</h1>
+                    <p class="small">Sono sempre aperto alla valutazione di nuove opportunità, e attualmente sono alla ricerca di un’esperienza professionale.</p>
+                    <a href="mailto:gabrieleangius@protonmail.com" target="_blank" class="pill inverted-wb small-a"> Contattami &nbsp; <i class="fa fa-angle-right fa-2x"> </i></a>
+                </div>
+            </div>
+            <div class="column-center">
+                <img src="imgs/logo/logoMinimBlack.svg" alt="Logo Gabriele Angius">
+                <p class="italic">Creatività, formazione e innovazione. <br/> Passo dopo passo, non si smette mai di migliorare.</p>
+                <div class="flex-container social">
+                    <a class="inverted" href="https://github.com/gabrieleAngius" target="_blank"><i class="fa fa-github fa-2x" aria-hidden="true"></i></a>
+                    <a class="inverted" href="https://www.instagram.com/gabrieleangius.webdev/" target="_blank"><i class="fa fa-instagram fa-2x" aria-hidden="true"></i></a>
+                    <a class="inverted" href="https://dribbble.com/gabrieleangius" target="_blank"><i class="fa fa-dribbble fa-2x" aria-hidden="true"></i></a>
+                </div>
+                <a href="./docs/CV-AngiusGabriele.pdf" download="Curriculum di Gabriele" class="pill inverted small-a"> Scarica il mio&nbsp;<abbr title="Curriculum Vitae"> CV </abbr><i class="fa fa-angle-right fa-2x"> </i></a>
+                <p class="small">Ideato, progettato e sviluppato da Gabriele Angius &#169; 2021</p>
+            </div>
+        </footer>
+        <script src="script/script.js"></script>
+    </body>
+  </html>

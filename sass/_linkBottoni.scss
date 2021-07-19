@@ -1,0 +1,139 @@
+//* LINK E BOTTONI
+a {
+    text-decoration: underline;
+    color: $p1;
+	&:visited {
+    	color: $p1-dark;
+	}
+	&:hover, &:focus{
+    	color: $p1-light;
+	}
+}
+button {
+	background-color: transparent;
+	border: none;
+	outline: none;
+	cursor: pointer;
+}
+a.pill {
+	display: flex;
+	width: 25vw;
+	max-height: 4vw;
+    text-decoration: none;
+	text-align: center;
+	align-items: center;
+	justify-content: center;
+	padding: .9rem 0 .9rem 2rem;
+	background-color: $p2;
+	color: $p1;
+	border: 2px solid $p1;
+    border-radius: 30px;
+	transition: all .6s ease-out;
+	i {
+		opacity: 0;
+		color: $p1;
+		transition: all .5s ease;
+		line-height: 0;
+	}
+	&:hover {
+		background-color: $p1;
+		color: #000000;
+		padding-right: 10px;
+		i {
+			opacity: 1;
+			display: inline;
+			color: #000000;
+			transform: translate(10px, 0);
+		}		
+	}
+	&:focus {
+		background-color: $p1-light;
+		color: #000000;
+		i {
+			opacity: 1;
+			color: #000000;
+		}
+	}
+}
+a.small-a {
+	max-width: 16vw;
+	max-height: 6vh;
+}
+a.inverted {
+	color: #000000;
+	background-color: $p1;
+	border: 2px solid #000000;
+	&:hover, &:hover i {
+		background-color: #000000;
+		color: $p1;
+	}
+	&:focus {
+		background-color: $p2-light;
+		color: $p1;
+		border: 2px solid $p1;
+		i {
+			color: $p1;
+		}
+	}
+}
+a.inverted-wb {
+	color: #000000;
+	background-color: $p3;
+	border: 2px solid #000000;
+	&:hover, &:hover i {
+		background-color: $p2;
+		color: #FFFFFF;
+	}
+	&:focus {
+		background-color: $p2-light;
+		color: #FFFFFF;
+		i {
+			color: #FFFFFF;
+		}
+	}
+}
+.social a {
+	border-radius: 100%;
+	padding: 1vw;
+	margin: 5vw 2.5vw;
+	transition: all .6s ease-out;
+	&.inverted {
+		i {
+			color: #000000;
+			background-color: $p1;
+			transition: all .6s ease-out;
+		}
+		&:hover, &:hover i {
+			background-color: $p2;
+			color: $p1;
+		}
+		&:focus, &:focus i {
+			background-color: $p2-light;
+			color: $p1;
+		}
+	}
+	&.wb-a {
+		display: inline-block;
+		border: 2px solid #FFFFFF;
+		padding: 1vw;
+		i {
+			color: #FFFFFF;
+			background-color: $p2;
+			transition: all .6s ease-out;
+		}
+		&:hover {
+			border: 2px solid $p1;
+			background-color: $p1;
+			color: $p2;
+		}
+		&:hover i {
+			background-color: $p1;
+			color: $p2;
+		}
+		&:focus, &:focus i {
+			background-color: $p1-light;
+			color: #000000;
+		}
+	}
+}
+

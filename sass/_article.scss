@@ -1,0 +1,53 @@
+article {
+    section {
+        a.pill {
+            margin-top: 3vw;
+        }
+        .img-full {
+            max-height: 17vw;
+            overflow: hidden;
+            border-radius: 24px;
+            margin-top: 3vw;
+            img {
+                width: 100%;
+                height: auto;
+                transition: all 6s ease-in-out;
+                &:hover {
+                    transform: translate(0, -40%);
+                }
+            }
+        }
+        .img-full2 {
+            max-height: 25vw;
+            overflow: hidden;
+            border-radius: 24px;
+            margin-top: 3vw;
+            img {
+                width: 100%;
+                height: auto;
+                transition: all 8s ease-in-out;
+                &:hover {
+                    transform: translate(0, -55%);
+                }
+            }
+        }
+        .flex-container .img-full2 {
+            margin-right: 3vw;
+        }
+        &.social {
+            .flex-container-mob {
+                align-items: center;
+                justify-content: space-between;
+            }
+        }
+    }
+}
+// pulsanti show/hide (mostra solo il primo)
+.show-hide-a {
+    & > a {
+        display: none;
+    }
+    & > :first-child {
+        display: flex;
+    }
+}

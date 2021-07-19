@@ -1,0 +1,149 @@
+//* CARDS 
+.card {
+    width: 35vw;
+    height: auto;
+    overflow-y: visible;
+    background-color: $p2-light;
+    color: #FFFFFF;
+    border-radius: 24px;
+    margin: 5vh 2vw 6vh 2vw;
+    padding: 5vh 8vw 8vh 8vw;
+	align-items: center;
+	justify-content: flex-start;
+	align-content: flex-start;
+    h1 {
+        color: $p1;
+        margin-top: 5vh;
+        margin-bottom: 1vh;
+    }
+    p {
+        margin: 0;
+    }
+    ul {
+        text-align: center;
+        list-style-type: none;
+        font-size: 0.8rem;
+    }
+    img {
+        width: 6vw;
+        height: auto;
+        margin-bottom: 0;
+    }
+}
+#competenze {
+    height: auto;
+    padding: 0;
+    & .backg-orange-light {
+        padding: 5vh 15vw;
+    }
+}
+.cover-prev {
+    background-color: $p2;
+    margin-top: -21%;
+    padding-top: 20vw;
+}
+.card2 {
+    width: 33vw;
+    height: auto;
+    background-color: $p3;
+    border: 2px solid black;
+    border-radius: 24px;
+    margin: 0 2vh 6vh 2vh;
+    align-items: center;
+    padding: 0;
+    overflow: hidden;
+    figure  {
+        margin: 0;
+        padding: 0;
+        position: relative;
+        img {
+            display: block;
+            width: 100%;
+            height: auto;
+            margin: 0;
+            z-index: 1;
+        }
+        figcaption {
+            position: absolute;
+            top: 0;
+            left: 0;
+            text-align: center;
+            width: 100%;
+            height: 100%;
+            margin: 0;
+            padding: 4vw;
+            background-color: $p1;
+            color: #000000;
+            z-index: 2;
+            opacity: 0;
+            transition: opacity .5s ease-in-out; //transizione show/hide didascalia
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            h1, h1 > * {
+                font-size: 1.4rem;
+            }
+        }
+    }
+    h1 {
+        font-weight: 700;
+        color: #000000;
+        text-align: center;
+        display: block;
+        width: 100%;
+        height: auto;
+    }
+    h1 > * {
+        font-weight: 700;
+    }
+    p {
+        margin-top: 0;
+    }
+    a.pill { //aggiustamento link pillola
+        margin-top: 2vh;
+    }
+    figure:hover { //didascalia show/hide all'hover
+        figcaption {
+            opacity: 1;
+        }
+    }
+}
+#formazione {
+    height: auto;
+    padding: 0;
+    margin-top: 15vh;
+    overflow: visible;
+    & .backg-white {
+        padding: 5vh 15vw;
+    }
+    .flex-container {
+        padding-top: 2.5vh;
+    }
+}
+.minicard {
+    width: 30%;
+    height: auto;
+    color: $p1;
+    background-color: $p2;
+    border: 2px solid $p1;
+    padding: 0;
+    margin: 8vh 3vw 0 0;
+    figcaption {
+        margin: 0;
+        padding: 0;
+        width: 100%;
+        height: auto;
+    }
+    i {
+        display: block;
+        z-index: 1;
+    }
+    figure {
+        h1, h1 > * {
+            display: inline;
+            font-weight: 700;
+            font-size: 1.3rem;
+        }
+    }
+}
