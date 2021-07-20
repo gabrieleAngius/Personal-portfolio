@@ -76,8 +76,8 @@ section {
   -webkit-box-align: start;
       -ms-flex-align: start;
           align-items: flex-start;
-  -ms-flex-wrap: nowrap;
-      flex-wrap: nowrap;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
 }
 
 .fullscreen-top {
@@ -722,7 +722,7 @@ a.inverted-wb:focus i {
 }
 
 .minicard {
-  width: 30%;
+  width: 20%;
   height: auto;
   color: #FF8523;
   background-color: #121212;
@@ -1164,7 +1164,7 @@ article section.social .flex-container-mob {
   }
   .minicard {
     min-width: 10%;
-    max-width: 20%;
+    max-width: 25%;
     margin: 3vw 2vw 0 0;
   }
   a.pill {
