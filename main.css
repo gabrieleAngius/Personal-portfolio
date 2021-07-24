@@ -135,6 +135,33 @@ section {
   margin: 0 0 -3vw 5vw;
 }
 
+#err404 {
+  border: 2px solid #FFFFFF;
+  border-radius: 24px 24px 0 0;
+  border-bottom: none;
+  margin: 12vw 20vw;
+  padding: 5vh 10vw 0 10vw;
+}
+
+#err404 img {
+  margin: 2vw 25vw 2vw 25vw;
+  max-width: 30%;
+}
+
+#err404 h1 {
+  margin: 0;
+  text-align: center;
+  font-size: 7rem;
+}
+
+#err404 p {
+  font-size: 3rem;
+  font-weight: 100;
+  margin-top: -1rem;
+  margin-bottom: 1rem;
+  letter-spacing: .2rem;
+}
+
 h1.display {
   font-family: 'Open Sans Condensed', sans-serif;
   font-size: 5.5rem;
@@ -971,6 +998,28 @@ article section.social .flex-container-mob {
     max-width: 70%;
     margin: 10% 0 0 15%;
   }
+  #err404 {
+    margin-top: 20vw;
+  }
+  #err404 img {
+    max-width: 50%;
+    margin: 2rem;
+  }
+  #err404 h1 {
+    font-size: 3rem;
+    margin: auto;
+  }
+  #err404 p {
+    font-size: 1.5rem;
+    letter-spacing: 0;
+    margin: auto;
+  }
+  #err404 a {
+    margin: 2rem;
+    font-size: 0.9rem;
+    width: 100%;
+    padding: 1.3rem 0 1.3rem 1rem;
+  }
   h1.display {
     font-size: 3.5rem;
     margin-bottom: 0;
@@ -1141,6 +1190,15 @@ article section.social .flex-container-mob {
   }
   section {
     padding: 5vh 10vw;
+  }
+  #err404 img {
+    max-width: 40%;
+  }
+  #err404 h1 {
+    font-size: 5rem;
+  }
+  #err404 p {
+    font-size: 2.5rem;
   }
   .card {
     width: 60vw;
