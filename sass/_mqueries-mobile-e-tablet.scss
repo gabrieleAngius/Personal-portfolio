@@ -92,9 +92,17 @@
     .top-fix2 {
         margin-top: 30vw;
     }
-    #foto_gab {
-        max-width: 70%;
-        margin: 10% 0 0 15%;
+    #mipresento {
+        align-items: center;
+        justify-content: space-between;
+        div {
+            max-width: 100%;
+        }
+        img {
+            max-width: 70%;
+            margin: 10% 0 0 15%;
+        }
+          
     }
     #err404 {
         margin-top: 20vw;

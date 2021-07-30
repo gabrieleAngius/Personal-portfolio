@@ -85,9 +85,17 @@ section {
 	padding-bottom: 10vw;
 }
 // aggiustamenti immagine
-#foto_gab {
-	max-width: 17vw;
-	margin: 0 0 -3vw 5vw;
+#mipresento {
+	align-items: center;
+	justify-content: space-between;
+	div {
+		max-width: 45vw;
+	}
+	img {
+		max-width: 13rem;
+		margin: 0;
+	}
+	
 }
 #err404 {
 	border: 2px solid #FFFFFF;
